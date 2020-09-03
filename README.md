@@ -1,3 +1,3 @@
 # URL-SHORTNER
- + This is created in python using "urllib" package.
+ + This is created using python with the help of "urllib" package.
  
