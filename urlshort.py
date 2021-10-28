@@ -7,5 +7,7 @@ def make_url_short(url):
     with contextlib.closing(urlopen(req_url)) as response:
         return response.read().decode('utf-8')
 
-k = make_url_short("https://www.linkedin.com/in/nivethitha-soundarrajan-7a5866189/")
-print(k)
+if __name__ == "__main__":
+    # sample
+    k = make_url_short("https://www.linkedin.com/in/nivethitha-soundarrajan-7a5866189/")
+    print(k)
